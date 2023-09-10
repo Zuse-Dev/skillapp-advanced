@@ -4,7 +4,7 @@ from random import *
 
 
 # setup
-datebasename = r"E:\abonga\Python\project X\skillapp - advanced\skillapp.db"
+datebasename = r"skillapp.db"
 db = sqlite3.connect(datebasename)
 dbcr = db.cursor()
 db.execute("create table if not exists users (user_id integer ,name string ,password string)")
